@@ -7,6 +7,8 @@ from rest_framework import status
 from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveUpdateDestroyAPIView
 # Create your views here.
 
+# GENERICS 
+
 # DOCTORS
 class ListDoctors(ListAPIView, CreateAPIView):
     allowed_methods = ['GET', 'POST', 'HEAD', 'OPTIONS']
